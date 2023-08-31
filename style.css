@@ -49,7 +49,7 @@ body {
 
 .details b {
     font-family: Outfit-ExtraBold, Arial, sans-serif;
-    color: #00008B;
+    color: #000000;
     font-size: 20px;
 }
 
@@ -60,7 +60,7 @@ body {
     color: #D3D3D3;
 }
 
-.attribution {
+footer {
     font-family: Outfit-Light, Arial, sans-serif;
     display: block;
     flex-direction: column;
@@ -70,7 +70,7 @@ body {
     font-size: 12px;
 }
 
-.attribution a {
+footer a {
     text-decoration: none;
     color: #00008B;
 }
