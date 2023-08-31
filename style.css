@@ -4,18 +4,8 @@
 }
 
 @font-face {
-    font-family: 'Outfit-ExtraBold';
-    src: url('dist/fonts/Outfit-ExtraBold.ttf')
-}
-
-@font-face {
     font-family: 'Outfit-Light';
     src: url('dist/fonts/Outfit-Light.ttf')
-}
-
-@font-face {
-    font-family: 'Outfit-Regular';
-    src: url('dist/fonts/Outfit-Regular.ttf')
 }
 
 * {
@@ -24,7 +14,7 @@
 }
 
 body {
-    background-color:  hsl(212, 45%, 89%);
+    background-color: hsl(212, 45%, 89%);
 }
 
 .container {
@@ -60,6 +50,7 @@ body {
 .details h3 {
     font-family: Outfit-Black, Arial, sans-serif;
     color: hsl(218, 44%, 22%);
+    font-size: 20px;
     font-weight: 700;
     margin-bottom: 1rem;
 }
@@ -90,4 +81,3 @@ body {
         font-size: 18px;
     }
 }
-
