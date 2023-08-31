@@ -1,4 +1,9 @@
 @font-face {
+    font-family: 'Outfit-Black';
+    src: url('dist/fonts/Outfit-Black.ttf')
+}
+
+@font-face {
     font-family: 'Outfit-ExtraBold';
     src: url('dist/fonts/Outfit-ExtraBold.ttf')
 }
@@ -19,11 +24,11 @@
 }
 
 body {
-    background-color:  #6B8EAB;
+    background-color:  hsl(212, 45%, 89%);
 }
 
 .container {
-    background-color: #FFFFFF;
+    background-color: hsl(0, 0%, 100%);
     width: 18%;
     height: auto;
     display: flex;
@@ -36,15 +41,6 @@ body {
     transform: translate(-50%, -50%);
     padding: 20px 20px 10px 20px;
     border-radius: 20px;
-}
-
-header h1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    font-family: Outfit-Regular, Arial, sans-serif;
-    margin-bottom: 1rem;
 }
 
 .qrcode-image img {
@@ -61,32 +57,19 @@ header h1 {
     text-align: center;
 }
 
-.details b {
-    font-family: Outfit-ExtraBold, Arial, sans-serif;
-    color: #000000;
-    font-size: 20px;
+.details h3 {
+    font-family: Outfit-Black, Arial, sans-serif;
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
+    margin-bottom: 1rem;
 }
 
 .details p {
     font-family: Outfit-Light, Arial, sans-serif;
     font-size: 15px;
-    margin-top: 1rem;
-    color: #D3D3D3;
-}
-
-footer {
-    font-family: Outfit-Light, Arial, sans-serif;
-    display: block;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-top: 1rem;
-    font-size: 12px;
-}
-
-footer a {
-    text-decoration: none;
-    color: #00008B;
+    font-weight: 300;
+    margin-bottom: 2rem;
+    color: hsl(220, 15%, 55%);
 }
 
 @media (max-width: 600px) {
@@ -99,7 +82,7 @@ footer a {
         margin-bottom: 0.5rem;
     }
 
-    .details b {
+    .details h3 {
         font-size: 24px;
     }
 
