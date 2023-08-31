@@ -24,13 +24,13 @@ Improve your front-end skills by building projects. Scan the QR code to visit Fr
 
 ```css
 @font-face {
-    font-family: 'Outfit-ExtraBold';
-    src: url('dist/fonts/Outfit-ExtraBold.ttf');
+    font-family: 'Outfit-Black';
+    src: url('dist/fonts/Outfit-Black.ttf')
 }
 
 @font-face {
     font-family: 'Outfit-Light';
-    src: url('dist/fonts/Outfit-Light.ttf');
+    src: url('dist/fonts/Outfit-Light.ttf')
 }
 ```
 
@@ -43,11 +43,11 @@ Improve your front-end skills by building projects. Scan the QR code to visit Fr
 }
 
 body {
-    background-color: #6B8EAB;
+    background-color: hsl(212, 45%, 89%);
 }
 
 .container {
-    background-color: #FFFFFF;
+    background-color: hsl(0, 0%, 100%);
     width: 18%;
     height: auto;
     display: flex;
@@ -76,32 +76,20 @@ body {
     text-align: center;
 }
 
-.details b {
-    font-family: Outfit-ExtraBold, Arial, sans-serif;
-    color: #00008B;
+.details h3 {
+    font-family: Outfit-Black, Arial, sans-serif;
+    color: hsl(218, 44%, 22%);
     font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 1rem;
 }
 
 .details p {
     font-family: Outfit-Light, Arial, sans-serif;
     font-size: 15px;
-    margin-top: 1rem;
-    color: #D3D3D3;
-}
-
-.attribution {
-    font-family: Outfit-Light, Arial, sans-serif;
-    display: block;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-top: 1rem;
-    font-size: 12px;
-}
-
-.attribution a {
-    text-decoration: none;
-    color: #00008B;
+    font-weight: 300;
+    margin-bottom: 2rem;
+    color: hsl(220, 15%, 55%);
 }
 
 @media (max-width: 600px) {
@@ -114,7 +102,7 @@ body {
         margin-bottom: 0.5rem;
     }
 
-    .details b {
+    .details h3 {
         font-size: 24px;
     }
 
