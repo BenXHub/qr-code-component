@@ -1,10 +1,12 @@
 @font-face {
     font-family: 'Outfit-Black';
+    font-weight: 700;
     src: url('dist/fonts/Outfit-Black.ttf')
 }
 
 @font-face {
     font-family: 'Outfit-Light';
+    font-weight: 400;
     src: url('dist/fonts/Outfit-Light.ttf')
 }
 
@@ -20,7 +22,7 @@ body {
 
 .container {
     background-color: hsl(0, 0%, 100%);
-    width: 18%;
+    width: 25%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -38,7 +40,7 @@ body {
     max-width: 100%;
     height: auto;
     border-radius: 10px;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .details {
@@ -51,16 +53,16 @@ body {
 .details h3 {
     font-family: Outfit-Black, Arial, sans-serif;
     color: hsl(218, 44%, 22%);
-    font-size: 21px;
+    font-size: 24px;
     font-weight: 700;
-    margin-bottom: 1rem;
+    margin: 0 5px 1rem 5px;
 }
 
 .details p {
     font-family: Outfit-Light, Arial, sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: 300;
-    margin-bottom: 2rem;
+    margin: 0 10px 2rem 10px;
     color: hsl(220, 15%, 55%);
 }
 
@@ -88,14 +90,14 @@ body {
     }
 
     .qrcode-image img {
-        margin-bottom: 0.5rem;
+        margin-bottom: 1.5rem;
     }
 
     .details h3 {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .details p {
-        font-size: 18px;
+        font-size: 15px;
     }
 }
