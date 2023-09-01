@@ -22,7 +22,7 @@ body {
 
 .container {
     background-color: hsl(0, 0%, 100%);
-    width: 25%;
+    width: 20%;
     height: auto;
     display: flex;
     flex-direction: column;
@@ -53,14 +53,14 @@ body {
 .details h3 {
     font-family: Outfit-Black, Arial, sans-serif;
     color: hsl(218, 44%, 22%);
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 700;
     margin: 0 5px 1rem 5px;
 }
 
 .details p {
     font-family: Outfit-Light, Arial, sans-serif;
-    font-size: 18px;
+    font-size: 13px;
     font-weight: 300;
     margin: 0 10px 2rem 10px;
     color: hsl(220, 15%, 55%);
